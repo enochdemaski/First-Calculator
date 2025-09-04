@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cal-container">
+      <input type="text" id="input" readonly />
+      <button id="cancel" class="btn operators" onclick="clearDisplay('C')">
+        C
+      </button>
+      <button id="division" class="btn operators" onclick="append('/')">
+        <sup>.</sup>/<sub></sub>.
+      </button>
+      <button id="multiply" class="btn operators" onclick="append('*')">
+        x
+      </button>
+      <button id="del" class="btn operators" onclick="append('>')">></button>
+      <button id="seven" class="btn" onclick="append('7')">7</button>
+      <button id="eight" class="btn" onclick="append('8')">8</button>
+      <button id="nine" class="btn" onclick="append('9')">9</button>
+      <button id="minus" class="btn operators" onclick="append('-')">-</button>
+      <button id="four" class="btn" onclick="append('4')">4</button>
+      <button id="five" class="btn" onclick="append('5')">5</button>
+      <button id="six" class="btn" onclick="append('6')">6</button>
+      <button id="plus" class="btn operators" onclick="append('+')">+</button>
+      <button id="one" class="btn" onclick="append('1')">1</button>
+      <button id="two" class="btn" onclick="append('2')">2</button>
+      <button id="three" class="btn" onclick="append('3')">3</button>
+      <button id="equal" class="btn" onclick="calculate('=')">=</button>
+      <button id="modulu" class="btn operators" onclick="append('%')">%</button>
+      <button id="zero" class="btn" onclick="append('0')">0</button>
+      <button id="dot" class="btn" onclick="append('.')">.</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
