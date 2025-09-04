@@ -1,4 +1,5 @@
 const display = document.getElementById("input");
+// const bg = (document.querySelector(".div").classList.add = "show");
 
 function append(input) {
   display.value += input;

@@ -8,6 +8,14 @@ body {
   justify-content: center;
   align-items: center;
 }
+.show {
+  background-color: #474646;
+  margin-bottom: 20px;
+  height: 430px;
+  width: 260px;
+  display: flex;
+  justify-content: center;
+}
 
 .cal-container {
   border-radius: 5px;
