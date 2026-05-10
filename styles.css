@@ -29,8 +29,6 @@ body {
   width: 100%;
   aspect-ratio: 1/1;
   padding: 20px;
-  /* height: 400px; */
-  /* margin: auto; */
   margin-top: 20px;
   padding: 2px;
   display: grid;
@@ -39,7 +37,7 @@ body {
 }
 
 #input {
-  background-color: #d2d1d1fb;
+  background-color: #717171fb;
   font-size: 1.8rem;
   grid-area: 1/1/1/5;
   outline: none;
@@ -50,8 +48,11 @@ body {
   color: #181717;
 }
 
+.first-btn{
+ background-color: #a8a8a8fb;
+}
+
 .operators {
-  font-size: 26px;
   font-weight: bold;
   background-color: #3b3b3b;
 }
@@ -60,12 +61,12 @@ body {
   background-color: #3b3b3b;
   grid-area: 5/4/7/4;
   border-radius: 13%;
-  font-size: 26px;
+  font-size: 50px;
   color: #000;
 }
 
 .btn {
-  font-size: 17px;
+  font-size: 50px;
   border-radius: 20%;
   border: none;
 }
