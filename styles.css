@@ -12,7 +12,7 @@ body {
   background-color: #474646;
   margin-bottom: 20px;
   padding: 10px;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   overflow: hidden;
   /* aspect-ratio: 1/1; */
